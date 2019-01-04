@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Rent a Hero</title>
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="initial-scale=1">
+    <meta charset="UTF-8">
+</head>
+<body>
+<div class="site-wrapper">
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
+            </div>
+            <nav class="">
+                <input class="menu-btn" type="checkbox" id="menu-btn"/>
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="" id="addHero-button">Dodaj Herosa</a></li>
+                    <li><a href="" id="editHero-button">Edytuj Herosa</a></li>
+                    <li><a href="" id="removeHero-button">Usuń Herosa</a></li>
+                    <li><a href="" id="clearHeroesList-button">Wyczyść bazę</a></li>
+                    <li><a href="" id="loadMockHeroes-button">Wczytaj Herosów</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="slider big" id="slider">
+            <img src="Images/home-slide01.jpg" alt="Need a Hero?">
+        </div>
+    </header>
+
+    <div class='container'>
+        <div class="row">
+            <div id="heroesList-region"></div>
+            <div id="addHeroForm-region"></div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    Need a Hero - Pure JS/CSS Aplikacja do ćwiczenia nabytej wiedzy o JavaScript
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

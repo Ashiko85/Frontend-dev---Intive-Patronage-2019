@@ -1,0 +1,23 @@
+{
+  "name": "frontend-dev---intive-patronage-2019",
+  "version": "1.0.0",
+  "description": "Frontend Developer - Intive Patronage 2019",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashiko85/Frontend-dev---Intive-Patronage-2019.git"
+  },
+  "author": "Anna Waluszko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashiko85/Frontend-dev---Intive-Patronage-2019/issues"
+  },
+  "homepage": "https://github.com/Ashiko85/Frontend-dev---Intive-Patronage-2019#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
