@@ -85,13 +85,10 @@ function showHeroListView() {
                         <span>${hero.name}</span>
                         <span>${hero.price}zł/h</span>
                         <span>${hero.price}</span>
+                        <button class="btn btn--primary" data-action="ADD_TO_CART">Dodaj do koszyka</button>
                     </div>
                 </div>
             </div>
-        </div>
-        <div>
-            <span>${hero.name}</span>
-            <span>${hero.price}zł/h</span>
         </div>
     </div>
 </div>
