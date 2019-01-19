@@ -12,7 +12,7 @@ function showHeroEditView(event) {
             <div class="form-group">
               <select name="hero">
                 <option>--- WYBIERZ ---</option>
-                ${ getOptions() }
+                ${getOptions()}
               </select>
               <label class="control-label" for="select">Wybierz istniejącego Heroesa</label><i class="bar"></i>
             </div>      

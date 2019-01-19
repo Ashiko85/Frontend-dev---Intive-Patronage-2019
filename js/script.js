@@ -27,7 +27,7 @@ function clearRegions() {
         'heroesEdit-region'
     ];
 
-    regions.forEach(function(region) {
+    regions.forEach(function (region) {
         var DOMelement = document.getElementById(region);
         DOMelement.innerHTML = "";
     });
