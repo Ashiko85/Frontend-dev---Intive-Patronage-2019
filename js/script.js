@@ -14,7 +14,6 @@ function attachMenuListeners() {
 
 
 loadFromLocalStorage();
-
 attachMenuListeners();
 showHeroListView();
 
